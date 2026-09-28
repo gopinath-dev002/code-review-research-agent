@@ -1,0 +1,19 @@
+[project]
+name = "code-review-research-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "pydantic",
+    "sqlalchemy",
+    "psycopg[binary]",
+    "langchain",
+    "langchain-core",
+    "langchain-groq",
+    "langgraph",
+    "langgraph-checkpoint-postgres",
+]
